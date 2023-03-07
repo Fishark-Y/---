@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>灯塔导航-前端导航页面</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<header class="globalHeader">
+    <!-- 如需开新页面 target="_blank" -->
+    <div class="image">
+        <img title="灯塔导航" src="./images/lighthouse2.png" alt="">
+    </div>
+    <!-- 搜索按钮 -->
+    <form class="searchForm" method="get" 
+          action="https://www.baidu.com/s"
+          >
+        <input name="wd" type="text">
+        <button type="submit">搜索</button>
+    </form>
+</header>
+
+<!-- 添加按钮 -->
+<main class="globalMain">
+    <ul class="siteList">
+        <li>
+        <li class="last">
+            <div class="addButton">
+                <div class="icon-wrapper">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-add"></use>
+                    </svg>
+                </div>
+                <div class="test">新增网站</div>
+            </div>
+        </li>
+    </ul>
+</main>
+
+<body>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="//at.alicdn.com/t/c/font_3932261_m081nwpbv5i.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
